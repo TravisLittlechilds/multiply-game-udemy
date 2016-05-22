@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9D8D7E921CF20F0700FCF4FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8D7E911CF20F0700FCF4FC /* AppDelegate.swift */; };
+		9D8D7E941CF20F0700FCF4FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8D7E931CF20F0700FCF4FC /* ViewController.swift */; };
+		9D8D7E961CF20F0700FCF4FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D8D7E951CF20F0700FCF4FC /* Assets.xcassets */; };
+		9D8D7E991CF20F0700FCF4FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D8D7E971CF20F0700FCF4FC /* Main.storyboard */; };
+		9D8D7EA41CF20F0700FCF4FC /* Learning_Multiply_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8D7EA31CF20F0700FCF4FC /* Learning_Multiply_AppTests.swift */; };
+		9D8D7EAF1CF20F0700FCF4FC /* Learning_Multiply_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8D7EAE1CF20F0700FCF4FC /* Learning_Multiply_AppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9D8D7EA01CF20F0700FCF4FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D8D7E861CF20F0700FCF4FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D8D7E8D1CF20F0700FCF4FC;
+			remoteInfo = "Learning Multiply App";
+		};
+		9D8D7EAB1CF20F0700FCF4FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D8D7E861CF20F0700FCF4FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D8D7E8D1CF20F0700FCF4FC;
+			remoteInfo = "Learning Multiply App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9D8D7E8E1CF20F0700FCF4FC /* Learning Multiply App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Learning Multiply App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D8D7E911CF20F0700FCF4FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9D8D7E931CF20F0700FCF4FC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9D8D7E951CF20F0700FCF4FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9D8D7E981CF20F0700FCF4FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9D8D7E9A1CF20F0700FCF4FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D8D7E9F1CF20F0700FCF4FC /* Learning Multiply AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Learning Multiply AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D8D7EA31CF20F0700FCF4FC /* Learning_Multiply_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Learning_Multiply_AppTests.swift; sourceTree = "<group>"; };
+		9D8D7EA51CF20F0700FCF4FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D8D7EAA1CF20F0700FCF4FC /* Learning Multiply AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Learning Multiply AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D8D7EAE1CF20F0700FCF4FC /* Learning_Multiply_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Learning_Multiply_AppUITests.swift; sourceTree = "<group>"; };
+		9D8D7EB01CF20F0700FCF4FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9D8D7E8B1CF20F0700FCF4FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D8D7E9C1CF20F0700FCF4FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D8D7EA71CF20F0700FCF4FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9D8D7E851CF20F0700FCF4FC = {
+			isa = PBXGroup;
+			children = (
+				9D8D7E901CF20F0700FCF4FC /* Learning Multiply App */,
+				9D8D7EA21CF20F0700FCF4FC /* Learning Multiply AppTests */,
+				9D8D7EAD1CF20F0700FCF4FC /* Learning Multiply AppUITests */,
+				9D8D7E8F1CF20F0700FCF4FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9D8D7E8F1CF20F0700FCF4FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9D8D7E8E1CF20F0700FCF4FC /* Learning Multiply App.app */,
+				9D8D7E9F1CF20F0700FCF4FC /* Learning Multiply AppTests.xctest */,
+				9D8D7EAA1CF20F0700FCF4FC /* Learning Multiply AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9D8D7E901CF20F0700FCF4FC /* Learning Multiply App */ = {
+			isa = PBXGroup;
+			children = (
+				9D8D7E911CF20F0700FCF4FC /* AppDelegate.swift */,
+				9D8D7E931CF20F0700FCF4FC /* ViewController.swift */,
+				9D8D7E951CF20F0700FCF4FC /* Assets.xcassets */,
+				9D8D7E971CF20F0700FCF4FC /* Main.storyboard */,
+				9D8D7E9A1CF20F0700FCF4FC /* Info.plist */,
+			);
+			path = "Learning Multiply App";
+			sourceTree = "<group>";
+		};
+		9D8D7EA21CF20F0700FCF4FC /* Learning Multiply AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				9D8D7EA31CF20F0700FCF4FC /* Learning_Multiply_AppTests.swift */,
+				9D8D7EA51CF20F0700FCF4FC /* Info.plist */,
+			);
+			path = "Learning Multiply AppTests";
+			sourceTree = "<group>";
+		};
+		9D8D7EAD1CF20F0700FCF4FC /* Learning Multiply AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9D8D7EAE1CF20F0700FCF4FC /* Learning_Multiply_AppUITests.swift */,
+				9D8D7EB01CF20F0700FCF4FC /* Info.plist */,
+			);
+			path = "Learning Multiply AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9D8D7E8D1CF20F0700FCF4FC /* Learning Multiply App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D8D7EB31CF20F0700FCF4FC /* Build configuration list for PBXNativeTarget "Learning Multiply App" */;
+			buildPhases = (
+				9D8D7E8A1CF20F0700FCF4FC /* Sources */,
+				9D8D7E8B1CF20F0700FCF4FC /* Frameworks */,
+				9D8D7E8C1CF20F0700FCF4FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Learning Multiply App";
+			productName = "Learning Multiply App";
+			productReference = 9D8D7E8E1CF20F0700FCF4FC /* Learning Multiply App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9D8D7E9E1CF20F0700FCF4FC /* Learning Multiply AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D8D7EB61CF20F0700FCF4FC /* Build configuration list for PBXNativeTarget "Learning Multiply AppTests" */;
+			buildPhases = (
+				9D8D7E9B1CF20F0700FCF4FC /* Sources */,
+				9D8D7E9C1CF20F0700FCF4FC /* Frameworks */,
+				9D8D7E9D1CF20F0700FCF4FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D8D7EA11CF20F0700FCF4FC /* PBXTargetDependency */,
+			);
+			name = "Learning Multiply AppTests";
+			productName = "Learning Multiply AppTests";
+			productReference = 9D8D7E9F1CF20F0700FCF4FC /* Learning Multiply AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9D8D7EA91CF20F0700FCF4FC /* Learning Multiply AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D8D7EB91CF20F0700FCF4FC /* Build configuration list for PBXNativeTarget "Learning Multiply AppUITests" */;
+			buildPhases = (
+				9D8D7EA61CF20F0700FCF4FC /* Sources */,
+				9D8D7EA71CF20F0700FCF4FC /* Frameworks */,
+				9D8D7EA81CF20F0700FCF4FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D8D7EAC1CF20F0700FCF4FC /* PBXTargetDependency */,
+			);
+			name = "Learning Multiply AppUITests";
+			productName = "Learning Multiply AppUITests";
+			productReference = 9D8D7EAA1CF20F0700FCF4FC /* Learning Multiply AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9D8D7E861CF20F0700FCF4FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Travis Littlechilds";
+				TargetAttributes = {
+					9D8D7E8D1CF20F0700FCF4FC = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					9D8D7E9E1CF20F0700FCF4FC = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 9D8D7E8D1CF20F0700FCF4FC;
+					};
+					9D8D7EA91CF20F0700FCF4FC = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 9D8D7E8D1CF20F0700FCF4FC;
+					};
+				};
+			};
+			buildConfigurationList = 9D8D7E891CF20F0700FCF4FC /* Build configuration list for PBXProject "Learning Multiply App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9D8D7E851CF20F0700FCF4FC;
+			productRefGroup = 9D8D7E8F1CF20F0700FCF4FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9D8D7E8D1CF20F0700FCF4FC /* Learning Multiply App */,
+				9D8D7E9E1CF20F0700FCF4FC /* Learning Multiply AppTests */,
+				9D8D7EA91CF20F0700FCF4FC /* Learning Multiply AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9D8D7E8C1CF20F0700FCF4FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D8D7E961CF20F0700FCF4FC /* Assets.xcassets in Resources */,
+				9D8D7E991CF20F0700FCF4FC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D8D7E9D1CF20F0700FCF4FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D8D7EA81CF20F0700FCF4FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9D8D7E8A1CF20F0700FCF4FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D8D7E941CF20F0700FCF4FC /* ViewController.swift in Sources */,
+				9D8D7E921CF20F0700FCF4FC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D8D7E9B1CF20F0700FCF4FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D8D7EA41CF20F0700FCF4FC /* Learning_Multiply_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D8D7EA61CF20F0700FCF4FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D8D7EAF1CF20F0700FCF4FC /* Learning_Multiply_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9D8D7EA11CF20F0700FCF4FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D8D7E8D1CF20F0700FCF4FC /* Learning Multiply App */;
+			targetProxy = 9D8D7EA01CF20F0700FCF4FC /* PBXContainerItemProxy */;
+		};
+		9D8D7EAC1CF20F0700FCF4FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D8D7E8D1CF20F0700FCF4FC /* Learning Multiply App */;
+			targetProxy = 9D8D7EAB1CF20F0700FCF4FC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9D8D7E971CF20F0700FCF4FC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D8D7E981CF20F0700FCF4FC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9D8D7EB11CF20F0700FCF4FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9D8D7EB21CF20F0700FCF4FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9D8D7EB41CF20F0700FCF4FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Learning Multiply App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "travistravis.Learning-Multiply-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9D8D7EB51CF20F0700FCF4FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Learning Multiply App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "travistravis.Learning-Multiply-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9D8D7EB71CF20F0700FCF4FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Learning Multiply AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "travistravis.Learning-Multiply-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Learning Multiply App.app/Contents/MacOS/Learning Multiply App";
+			};
+			name = Debug;
+		};
+		9D8D7EB81CF20F0700FCF4FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Learning Multiply AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "travistravis.Learning-Multiply-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Learning Multiply App.app/Contents/MacOS/Learning Multiply App";
+			};
+			name = Release;
+		};
+		9D8D7EBA1CF20F0700FCF4FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Learning Multiply AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "travistravis.Learning-Multiply-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Learning Multiply App";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		9D8D7EBB1CF20F0700FCF4FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Learning Multiply AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "travistravis.Learning-Multiply-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Learning Multiply App";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9D8D7E891CF20F0700FCF4FC /* Build configuration list for PBXProject "Learning Multiply App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D8D7EB11CF20F0700FCF4FC /* Debug */,
+				9D8D7EB21CF20F0700FCF4FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D8D7EB31CF20F0700FCF4FC /* Build configuration list for PBXNativeTarget "Learning Multiply App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D8D7EB41CF20F0700FCF4FC /* Debug */,
+				9D8D7EB51CF20F0700FCF4FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9D8D7EB61CF20F0700FCF4FC /* Build configuration list for PBXNativeTarget "Learning Multiply AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D8D7EB71CF20F0700FCF4FC /* Debug */,
+				9D8D7EB81CF20F0700FCF4FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9D8D7EB91CF20F0700FCF4FC /* Build configuration list for PBXNativeTarget "Learning Multiply AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D8D7EBA1CF20F0700FCF4FC /* Debug */,
+				9D8D7EBB1CF20F0700FCF4FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9D8D7E861CF20F0700FCF4FC /* Project object */;
+}
